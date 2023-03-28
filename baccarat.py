@@ -5,7 +5,6 @@ from plyer import notification
 right = 0
 con, grey = 0.9, True #Confident
 screen = (0,0,1920,1080) #Screen that will be processed
-state,prevState = 0,0 #Switching between function
 prevPicture = False
 
 notification.notify(
